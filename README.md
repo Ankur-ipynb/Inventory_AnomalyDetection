@@ -153,7 +153,7 @@ Start the Streamlit dashboard:
 streamlit run notebooks/app.py
 
 
-Open your browser and navigate to http://localhost:8501.
+Open your browser and navigate to http://localhost:<port>.
 
 3. Dashboard Sections
 
