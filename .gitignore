@@ -1,0 +1,49 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Databases
+data/inventory.db
+data/inventory_metrics.db
+data/ml_metrics.db
+
+# Logs
+logs/*
+spark-events/*
+spark-warehouse/*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Spark and Hadoop
+hadoop/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Dependency Directories
+libs/*
+!libs/sqlite-jdbc-3.49.1.0.jar  # Keep the SQLite JDBC driver
+
+# Other
+*.bak
+*.swp
