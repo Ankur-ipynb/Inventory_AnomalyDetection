@@ -42,22 +42,7 @@ inventory_project/
 │   ├── .ipynb_checkpoints/        # Jupyter notebook checkpoints (auto-generated)
 │   │   ├── anomaly_detection-checkpoint.py
 │   │   ├── app-checkpoint.py
-│   │   ├── arima_model-checkpoint.py
-│   │   ├── detailed-checkpoint.py
-│   │   ├── generate_data-checkpoint.py
-│   │   ├── generate_text_data-checkpoint.py
-│   │   ├── ingest-checkpoint.py
-│   │   ├── introduce_actual_quantity-checkpoint.py
-│   │   ├── introduce_anomaly-checkpoint.py
-│   │   ├── isolation forest_model-checkpoint.py
-│   │   ├── migrate_notifications-checkpoint.py
-│   │   ├── process_inventory - Copy-checkpoint.py
-│   │   ├── process_inventory-checkpoint.py
-│   │   ├── prophet_model-checkpoint.py
-│   │   ├── query-checkpoint.py
-│   │   ├── text_anomaly_detection-checkpoint.py
-│   │   ├── view_ml_metrics-checkpoint.py
-│   │   └── xgboost_model-checkpoint.py
+│   ├── ...                       # Other notebook checkpoints (numerous files)
 │   ├── __pycache__/               # Python cache files
 │   │   └── query.cpython-39.pyc
 │   ├── anomaly_detection.py       # Detects numerical anomalies in inventory data
@@ -66,14 +51,12 @@ inventory_project/
 │   ├── detailed.py               # Replaces 'All' with granular store_location and category values
 │   ├── generate_data.py          # Generates synthetic inventory data
 │   ├── generate_text_data.py     # Generates synthetic text data for testing
-│   ├── ingest.py                 # Ingests data from Apache Pulsar
+│   ├── ingest.py                 # Ingests data from Apache Pulsar/ fallback DB
 │   ├── introduce_actual_quantity.py  # Simulates actual quantities in test mode
 │   ├── introduce_anomaly.py      # Simulates anomalies in test mode (likely a duplicate of introduce_anomalies.py)
 │   ├── isolation forest_model.py # Isolation Forest model for anomaly detection
 │   ├── migrate_notifications.py  # Migrates notifications table to add category column
-│   ├── post_process_metrics - Copy.py  # Backup copy of post-processing script
 │   ├── post_process_metrics.py   # Post-processes metrics for visualization
-│   ├── process_inventory - Copy.py  # Backup copy of inventory processing script
 │   ├── process_inventory.py      # Processes inventory data using Spark
 │   ├── prophet_model.py          # Prophet model for forecasting
 │   ├── query.py                  # Generates notifications from anomalies
